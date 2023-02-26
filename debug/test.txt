@@ -1,0 +1,17 @@
+browser user-agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/534.12 ip: 146.19.120.162
+browser user-agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/532.0 ip: 146.19.109.143
+browser user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/535.1 ip: 146.19.72.154
+browser user-agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/532.0 ip: 146.19.109.54
+browser user-agent: Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/534.12 ip: 45.137.55.229
+browser user-agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/532.0 ip: 92.249.14.200
+browser user-agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/534.16 ip: 146.19.72.141
+browser user-agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/533.4 ip: 146.19.136.50
+browser user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.13 ip: 45.129.198.188
+browser user-agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/530.5 ip: 5.104.74.36
+browser user-agent: Mozilla/5.0 (X11; U; Slackware Linux x86_64; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/532.5 ip: 92.249.14.14
+browser user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/4E423F ip: 194.28.157.11
+browser user-agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/534.30 ip: 193.141.92.99
+browser user-agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/534.16 ip: 5.104.74.22
+browser user-agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/525.19 ip: 193.141.92.35
+browser user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/535.24 ip: 146.19.136.228
+browser user-agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/534.24 ip: 146.19.136.118

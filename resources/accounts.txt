@@ -1,0 +1,2 @@
+your_accs
+email:imap_pass_to_email:pass_to_acc_funko:imap_ip:imap_port

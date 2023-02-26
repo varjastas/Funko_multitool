@@ -1,0 +1,2 @@
+your_proxy
+ip:port:login:pass

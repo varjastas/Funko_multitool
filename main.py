@@ -19,7 +19,7 @@ def start(proxy, acc, sleep_time, number):
     try:
         if proxy_mode:
             if len(proxy.split("@")) != 1:
-                logger.info(f"Меняю проксю {proxy} на тип :")
+                logger.info(f"Changing {proxy} to type :")
                 proxy = proxy.split("@")
                 proxy = [proxy[1].split(":")[0], proxy[1].split(":")[1], proxy[0].split(":")[0], proxy[0].split(":")[1]]
             else:
@@ -55,12 +55,12 @@ def start(proxy, acc, sleep_time, number):
                 with open(r"failed_proxy.txt", "a") as f:
                     f.write(pr+"\n")
 
-            logger.error(f"{pr} отлетела в бан. acc {acc}")
+            logger.error(f"{pr} is banned. acc {acc}")
             driver.close()
             driver.quit()
             return
         except Exception as Err:     
-            logger.debug(f"Всё ок с проксей {proxy}")
+            logger.debug(f"Proxy is ok {proxy}")
             if check_proxy:
                 with open("proxy_good.txt", "a") as f:
                     f.write(":".join(proxy)+"\n")
@@ -206,32 +206,32 @@ def start(proxy, acc, sleep_time, number):
 
 if __name__ == "__main__":
 
-    mode = int(input("Выберите мод.\n1 - Заход в очередь(оставляю браузер) \n2 - Рег акков(закрываю браузер). "))
+    mode = int(input("Choose.\n1 - Enter the queue(keeping browser opened) \n2 - Register accounts(closing browser after all). "))
     if mode == 1:
-        link = input("Переходить по какой-то линке(n/y)? ")
+        link = input("Go to some link(n/y)? ")
         if link.lower() == "y":
-            link = input("Введите линку: ")
-            timestamp = int(input("Введите таймстемп когда открывать линку"))
-            solve_captcha = True if input("Решаем капчу после начала сейла?(y/n) ").lower() == "y" else False
+            link = input("Enter the link: ")
+            timestamp = int(input("Enter timestamp when link will be opened"))
+            solve_captcha = True if input("Solve captcha after sale start?(y/n) ").lower() == "y" else False
 
-        sleep_time_between_accs = int(input("Сколько секунд спать между открытием каждого аккаунта(начинает отсчитываться с открытия нового браузера). Я ставлю 40-45. "))
+        sleep_time_between_accs = int(input("How much second to sleep between accounts(beginning to count at start of new browser). I recommend 30-40 "))
 
     
-    proxy_mode = True if int(input("Выберите мод.\n1 - Юзать прокси\n2 - Нет ")) == 1 else False
+    proxy_mode = True if int(input("Choose.\n1 - use proxy\n2 - no ")) == 1 else False
     vpn = False
     path_to_vpn = None
     check_proxy = False
     if proxy_mode == 1:
-        check_proxy = True if input("Делаем чек прокси на гуд и бэд?(y/n) ").lower() == "y" else False
+        check_proxy = True if input("Check proxy on good/bad?(y/n) ").lower() == "y" else False
 
     else:
-        vpn =  True if input("Грузим впн?(y/n) ").lower() == "y" else False
+        vpn =  True if input("Load vpn?(y/n) ").lower() == "y" else False
         if vpn:
-            path_to_vpn = str(input("Введите путь к папке с впн "))
+            path_to_vpn = str(input("Set a path to vpn directory "))
     
-    threads = int(input("Кол-во потоков "))
+    threads = int(input("Thread count "))
 
-    path_to_captcha = str(input("Введите путь к капче "))
+    path_to_captcha = str(input("Path to captcha "))
 
     
     with open(r"resources\accounts.txt", "r") as f:
@@ -266,4 +266,4 @@ if __name__ == "__main__":
     except Exception as Err:
         logger.error(Err)
     if mode == 1:
-        input("Нажмите enter для выхода. ")
+        input("Press enter to exit. ")
